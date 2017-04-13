@@ -130,15 +130,15 @@ class Search(object):
             return
 
         s = self.stats.pipeline()
-        timer = s.timer('memex.search.query').start()
+        timer = s.timer('h.search.query').start()
         try:
             yield
-            s.incr('memex.search.query.success')
+            s.incr('h.search.query.success')
         except ConnectionTimeout:
-            s.incr('memex.search.query.timeout')
+            s.incr('h.search.query.timeout')
             raise
         except:
-            s.incr('memex.search.query.error')
+            s.incr('h.search.query.error')
             raise
         finally:
             timer.stop()
