@@ -14,7 +14,7 @@ bcrypt==4.0.1
     # via -r requirements/requirements.in
 billiard==3.6.4.0
     # via celery
-bleach==5.0.1
+bleach==6.0.0
     # via -r requirements/requirements.in
 celery==5.2.7
     # via -r requirements/requirements.in
@@ -179,6 +179,20 @@ repoze-sendmail==4.3
     # via pyramid-mailer
 sentry-sdk==0.17.6
     # via h-pyramid-sentry
+setuptools==65.5.1
+    # via
+    #   colander
+    #   gevent
+    #   gunicorn
+    #   jsonschema
+    #   plaster
+    #   pyramid
+    #   repoze-sendmail
+    #   supervisor
+    #   zope-deprecation
+    #   zope-event
+    #   zope-interface
+    #   zope-sqlalchemy
 six==1.15.0
     # via
     #   bleach
@@ -265,19 +279,3 @@ zope-interface==5.5.2
     #   zope-sqlalchemy
 zope-sqlalchemy==1.6
     # via -r requirements/requirements.in
-
-# The following packages are considered to be unsafe in a requirements file:
-setuptools==65.5.1
-    # via
-    #   colander
-    #   gevent
-    #   gunicorn
-    #   jsonschema
-    #   plaster
-    #   pyramid
-    #   repoze-sendmail
-    #   supervisor
-    #   zope-deprecation
-    #   zope-event
-    #   zope-interface
-    #   zope-sqlalchemy
