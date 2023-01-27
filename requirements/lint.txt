@@ -13,7 +13,7 @@ amqp==5.0.9
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   kombu
-astroid==2.11.6
+astroid==2.13.3
     # via pylint
 attrs==20.2.0
     # via
@@ -263,6 +263,11 @@ peppercorn==0.6
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   deform
+pip==22.2.2
+    # via
+    #   -r requirements/functests.txt
+    #   -r requirements/tests.txt
+    #   pip-tools
 pip-sync-faster==0.0.3
     # via
     #   -r requirements/functests.txt
@@ -327,7 +332,7 @@ pyjwt==2.6.0
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
-pylint==2.14.5
+pylint==2.15.10
     # via -r requirements/lint.in
 pyparsing==3.0.9
     # via
@@ -411,6 +416,23 @@ sentry-sdk==0.17.6
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   h-pyramid-sentry
+setuptools==65.5.1
+    # via
+    #   -r requirements/functests.txt
+    #   -r requirements/tests.txt
+    #   colander
+    #   gevent
+    #   gunicorn
+    #   jsonschema
+    #   pip-tools
+    #   plaster
+    #   pyramid
+    #   repoze-sendmail
+    #   supervisor
+    #   zope-deprecation
+    #   zope-event
+    #   zope-interface
+    #   zope-sqlalchemy
 six==1.15.0
     # via
     #   -r requirements/functests.txt
@@ -482,7 +504,7 @@ translationstring==1.4
     #   colander
     #   deform
     #   pyramid
-typing-extensions==3.10.0.2
+typing-extensions==4.4.0
     # via
     #   astroid
     #   pylint
@@ -580,28 +602,3 @@ zope-sqlalchemy==1.6
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
-
-# The following packages are considered to be unsafe in a requirements file:
-pip==22.2.2
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   pip-tools
-setuptools==65.5.1
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   astroid
-    #   colander
-    #   gevent
-    #   gunicorn
-    #   jsonschema
-    #   pip-tools
-    #   plaster
-    #   pyramid
-    #   repoze-sendmail
-    #   supervisor
-    #   zope-deprecation
-    #   zope-event
-    #   zope-interface
-    #   zope-sqlalchemy
