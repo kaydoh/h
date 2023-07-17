@@ -333,7 +333,7 @@ pyparsing==3.0.9
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
-pyramid==2.0
+pyramid==2.0.1
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
