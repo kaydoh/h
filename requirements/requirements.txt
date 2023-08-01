@@ -137,7 +137,7 @@ pycryptodomex==3.16.0
     # via -r requirements/requirements.in
 pyjwt==2.6.0
     # via -r requirements/requirements.in
-pyparsing==3.0.9
+pyparsing==3.1.1
     # via -r requirements/requirements.in
 pyramid==2.0
     # via
