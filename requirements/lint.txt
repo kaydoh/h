@@ -244,6 +244,7 @@ packaging==22.0
     #   -r requirements/tests.txt
     #   build
     #   pytest
+    #   zope-sqlalchemy
 passlib==1.7.4
     # via
     #   -r requirements/functests.txt
@@ -576,7 +577,7 @@ zope-interface==5.5.2
     #   transaction
     #   wired
     #   zope-sqlalchemy
-zope-sqlalchemy==1.6
+zope-sqlalchemy==3.0
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
