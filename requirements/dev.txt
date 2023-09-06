@@ -228,7 +228,7 @@ pyjwt==2.6.0
     # via -r requirements/requirements.txt
 pyparsing==3.0.9
     # via -r requirements/requirements.txt
-pyramid==2.0
+pyramid==2.0.2
     # via
     #   -r requirements/requirements.txt
     #   h-assets

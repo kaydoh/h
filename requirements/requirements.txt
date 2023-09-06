@@ -139,7 +139,7 @@ pyjwt==2.6.0
     # via -r requirements/requirements.in
 pyparsing==3.0.9
     # via -r requirements/requirements.in
-pyramid==2.0
+pyramid==2.0.2
     # via
     #   -r requirements/requirements.in
     #   h-assets
