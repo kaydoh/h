@@ -159,6 +159,7 @@ packaging==22.0
     #   -r requirements/requirements.txt
     #   build
     #   pytest
+    #   zope-sqlalchemy
 passlib==1.7.4
     # via -r requirements/requirements.txt
 pastedeploy==2.1.0
@@ -371,7 +372,7 @@ zope-interface==5.5.2
     #   transaction
     #   wired
     #   zope-sqlalchemy
-zope-sqlalchemy==1.6
+zope-sqlalchemy==3.1
     # via -r requirements/requirements.txt
 
 # The following packages are considered to be unsafe in a requirements file:
