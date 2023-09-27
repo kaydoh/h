@@ -173,7 +173,7 @@ peppercorn==0.6
     #   deform
 pip-sync-faster==0.0.3
     # via -r requirements/tests.in
-pip-tools==6.12.1
+pip-tools==7.3.0
     # via
     #   -r requirements/tests.in
     #   pip-sync-faster
@@ -294,6 +294,7 @@ tomli==2.0.0
     # via
     #   build
     #   pep517
+    #   pip-tools
     #   pytest
 transaction==3.0.1
     # via
