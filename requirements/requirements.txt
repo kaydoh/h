@@ -61,7 +61,7 @@ gunicorn==20.1.0
     # via -r requirements/requirements.in
 h-api==1.0.2
     # via -r requirements/requirements.in
-h-assets==1.0.5
+h-assets==1.0.6
     # via -r requirements/requirements.in
 h-matchers==1.2.15
     # via -r requirements/requirements.in
@@ -73,6 +73,7 @@ importlib-metadata==4.8.1
     # via
     #   alembic
     #   data-tasks
+    #   h-assets
     #   markdown
 importlib-resources==5.10.2
     # via
