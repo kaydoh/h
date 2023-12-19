@@ -13,7 +13,7 @@ amqp==5.0.9
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   kombu
-astroid==2.11.6
+astroid==3.0.2
     # via pylint
 attrs==20.2.0
     # via
@@ -210,8 +210,6 @@ kombu==5.2.4
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   celery
-lazy-object-proxy==1.6.0
-    # via astroid
 mako==1.2.2
     # via
     #   -r requirements/functests.txt
@@ -327,7 +325,7 @@ pyjwt==2.6.0
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
-pylint==2.14.5
+pylint==3.0.3
     # via -r requirements/lint.in
 pyparsing==3.0.9
     # via
@@ -482,7 +480,7 @@ translationstring==1.4
     #   colander
     #   deform
     #   pyramid
-typing-extensions==3.10.0.2
+typing-extensions==4.9.0
     # via
     #   astroid
     #   pylint
@@ -536,8 +534,6 @@ wired==0.2.2
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   pyramid-services
-wrapt==1.12.1
-    # via astroid
 ws4py==0.5.1
     # via
     #   -r requirements/functests.txt
@@ -591,7 +587,6 @@ setuptools==65.5.1
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
-    #   astroid
     #   colander
     #   gevent
     #   gunicorn
