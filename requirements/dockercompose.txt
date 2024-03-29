@@ -8,7 +8,7 @@ attrs==20.3.0
     # via jsonschema
 bcrypt==4.0.1
     # via paramiko
-build==0.8.0
+build==1.2.1
     # via pip-tools
 certifi==2022.12.7
     # via requests
@@ -27,7 +27,7 @@ distro==1.5.0
 docker[ssh]==5.0.0
     # via docker-compose
 docker-compose==1.29.2
-    # via -r dockercompose.in
+    # via -r requirements/dockercompose.in
 dockerpty==0.4.1
     # via docker-compose
 docopt==0.6.2
@@ -35,25 +35,29 @@ docopt==0.6.2
 idna==2.10
     # via requests
 importlib-metadata==4.12.0
-    # via pip-sync-faster
+    # via
+    #   build
+    #   pip-sync-faster
 jsonschema==3.2.0
     # via docker-compose
 packaging==22.0
     # via build
 paramiko==2.10.1
     # via docker
-pep517==0.13.0
-    # via build
 pip-sync-faster==0.0.3
-    # via -r dockercompose.in
-pip-tools==6.12.1
+    # via -r requirements/dockercompose.in
+pip-tools==7.4.1
     # via
-    #   -r dockercompose.in
+    #   -r requirements/dockercompose.in
     #   pip-sync-faster
 pycparser==2.20
     # via cffi
 pynacl==1.4.0
     # via paramiko
+pyproject-hooks==1.0.0
+    # via
+    #   build
+    #   pip-tools
 pyrsistent==0.17.3
     # via jsonschema
 python-dotenv==0.17.1
@@ -76,7 +80,8 @@ texttable==1.6.3
 tomli==2.0.1
     # via
     #   build
-    #   pep517
+    #   pip-tools
+    #   pyproject-hooks
 urllib3==1.26.5
     # via requests
 websocket-client==0.58.0

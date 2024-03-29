@@ -39,7 +39,7 @@ bleach==5.0.1
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
-build==0.8.0
+build==1.2.1
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
@@ -167,6 +167,7 @@ importlib-metadata==4.8.1
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   alembic
+    #   build
     #   data-tasks
     #   markdown
     #   pip-sync-faster
@@ -253,11 +254,6 @@ pastedeploy==2.1.0
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   plaster-pastedeploy
-pep517==0.13.0
-    # via
-    #   -r requirements/functests.txt
-    #   -r requirements/tests.txt
-    #   build
 peppercorn==0.6
     # via
     #   -r requirements/functests.txt
@@ -268,7 +264,7 @@ pip-sync-faster==0.0.3
     #   -r requirements/functests.txt
     #   -r requirements/lint.in
     #   -r requirements/tests.txt
-pip-tools==6.12.1
+pip-tools==7.4.1
     # via
     #   -r requirements/functests.txt
     #   -r requirements/lint.in
@@ -333,6 +329,12 @@ pyparsing==3.0.9
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
+pyproject-hooks==1.0.0
+    # via
+    #   -r requirements/functests.txt
+    #   -r requirements/tests.txt
+    #   build
+    #   pip-tools
 pyramid==2.0
     # via
     #   -r requirements/functests.txt
@@ -462,8 +464,9 @@ tomli==2.0.0
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   build
-    #   pep517
+    #   pip-tools
     #   pylint
+    #   pyproject-hooks
     #   pytest
 tomlkit==0.11.0
     # via pylint
