@@ -386,7 +386,7 @@ pytest==7.1.3
     #   pytest-reverse
 pytest-reverse==1.5.0
     # via -r requirements/functests.txt
-python-dateutil==2.8.2
+python-dateutil==2.9.0.post0
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
