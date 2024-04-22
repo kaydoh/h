@@ -87,7 +87,7 @@ greenlet==1.1.1
     #   -r requirements/requirements.txt
     #   gevent
     #   sqlalchemy
-gunicorn==20.1.0
+gunicorn==22.0.0
     # via -r requirements/requirements.txt
 h-api==1.0.2
     # via -r requirements/requirements.txt
@@ -158,6 +158,7 @@ packaging==22.0
     # via
     #   -r requirements/requirements.txt
     #   build
+    #   gunicorn
     #   pytest
 passlib==1.7.4
     # via -r requirements/requirements.txt
@@ -382,7 +383,6 @@ setuptools==65.5.1
     #   -r requirements/requirements.txt
     #   colander
     #   gevent
-    #   gunicorn
     #   jsonschema
     #   pip-tools
     #   plaster
