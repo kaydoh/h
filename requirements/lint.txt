@@ -190,7 +190,7 @@ iso8601==0.1.13
     #   deform
 isort==5.11.4
     # via pylint
-itsdangerous==2.1.2
+itsdangerous==2.2.0
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
