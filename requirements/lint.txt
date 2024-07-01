@@ -93,7 +93,7 @@ colander==1.8.2
     #   deform
 coverage==7.0.3
     # via -r requirements/tests.txt
-data-tasks==0.0.2
+data-tasks==0.0.4
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
@@ -167,7 +167,6 @@ importlib-metadata==4.8.1
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
     #   alembic
-    #   data-tasks
     #   markdown
     #   pip-sync-faster
 importlib-resources==5.10.2
@@ -305,6 +304,7 @@ psycopg2==2.9.5
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
+    #   data-tasks
 py==1.10.0
     # via
     #   -r requirements/functests.txt
