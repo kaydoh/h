@@ -16,7 +16,7 @@ packaging==22.0
     # via build
 pep517==0.13.0
     # via build
-pip-sync-faster==0.0.3
+pip-sync-faster==0.0.4
     # via -r requirements/coverage.in
 pip-tools==6.12.1
     # via

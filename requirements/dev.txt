@@ -188,7 +188,7 @@ pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
-pip-sync-faster==0.0.3
+pip-sync-faster==0.0.4
     # via -r requirements/dev.in
 pip-tools==6.12.1
     # via
