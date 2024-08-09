@@ -186,7 +186,7 @@ six==1.15.0
     #   elasticsearch-dsl
     #   jsonschema
     #   python-dateutil
-sqlalchemy==1.4.45
+sqlalchemy==2.0.32
     # via
     #   -r requirements/requirements.in
     #   alembic
@@ -216,6 +216,8 @@ translationstring==1.4
     #   colander
     #   deform
     #   pyramid
+typing-extensions==4.12.2
+    # via sqlalchemy
 urllib3==1.26.5
     # via
     #   elasticsearch
