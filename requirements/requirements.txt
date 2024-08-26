@@ -57,7 +57,7 @@ greenlet==1.1.1
     # via
     #   gevent
     #   sqlalchemy
-gunicorn==20.1.0
+gunicorn==23.0.0
     # via -r requirements/requirements.in
 h-api==1.0.2
     # via -r requirements/requirements.in
@@ -112,7 +112,9 @@ newrelic==8.5.0
 oauthlib==3.2.2
     # via -r requirements/requirements.in
 packaging==22.0
-    # via -r requirements/requirements.in
+    # via
+    #   -r requirements/requirements.in
+    #   gunicorn
 passlib==1.7.4
     # via -r requirements/requirements.in
 pastedeploy==2.1.0
@@ -271,7 +273,6 @@ setuptools==65.5.1
     # via
     #   colander
     #   gevent
-    #   gunicorn
     #   jsonschema
     #   plaster
     #   pyramid
