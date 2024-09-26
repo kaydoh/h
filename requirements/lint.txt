@@ -524,7 +524,7 @@ webob==1.8.7
     #   -r requirements/tests.txt
     #   pyramid
     #   webtest
-webtest==3.0.0
+webtest==3.0.1
     # via -r requirements/functests.txt
 wheel==0.38.1
     # via
