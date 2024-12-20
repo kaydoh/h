@@ -237,7 +237,7 @@ webob==1.8.7
     # via pyramid
 wired==0.2.2
     # via pyramid-services
-ws4py==0.5.1
+ws4py==0.6.0
     # via -r requirements/requirements.in
 wsaccel==0.6.4
     # via -r requirements/requirements.in

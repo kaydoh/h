@@ -538,7 +538,7 @@ wired==0.2.2
     #   pyramid-services
 wrapt==1.12.1
     # via astroid
-ws4py==0.5.1
+ws4py==0.6.0
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
