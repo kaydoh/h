@@ -116,7 +116,7 @@ exceptiongroup==1.0.0rc8
     # via
     #   -r requirements/tests.txt
     #   hypothesis
-factory-boy==3.2.1
+factory-boy==3.3.3
     # via
     #   -r requirements/functests.txt
     #   -r requirements/tests.txt
