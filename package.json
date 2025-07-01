@@ -52,7 +52,7 @@
     "karma-mocha-reporter": "^2.2.5",
     "karma-sinon": "^1.0.5",
     "karma-source-map-support": "^1.4.0",
-    "mocha": "^10.2.0",
+    "mocha": "^11.7.1",
     "prettier": "^2.8.1",
     "sinon": "^15.0.1",
     "syn": "^0.2.2"
